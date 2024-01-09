@@ -7,7 +7,7 @@ jobs:
   build:
     name: Start Building...
     runs-on: windows-latest
-    timeout-minutes: 
+    timeout-minutes: 360  # This sets the timeout to the maximum of 6 hours for public repos
 
     steps:
       - name: Downloading & Installing Essentials
